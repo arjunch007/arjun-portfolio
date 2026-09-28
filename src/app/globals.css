@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+:root {
+  --font-display: "Sora", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
 :root,
 [data-theme="dark"] {
   --bg: #07090d;

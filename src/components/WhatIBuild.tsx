@@ -20,7 +20,7 @@ const icons = {
 
 export function WhatIBuild() {
   return (
-    <section id="what-i-build" className="section-pad py-20 md:py-28">
+    <section id="what-i-build" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading
           title="What I Build"

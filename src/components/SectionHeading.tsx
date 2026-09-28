@@ -10,7 +10,7 @@ export function SectionHeading({
   description?: string;
 }) {
   return (
-    <div id={id} className="mb-10 max-w-2xl md:mb-14">
+    <div id={id} className="mb-8 max-w-2xl md:mb-10">
       <p className="mb-3 font-mono text-xs uppercase tracking-[0.22em] text-[var(--accent)]">
         {site.name.split(" ")[0]}
       </p>

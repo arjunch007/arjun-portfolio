@@ -1,29 +1,10 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, Manrope, Sora } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
-const display = Sora({
-  variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-});
-
-const body = Manrope({
-  variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
-const mono = JetBrains_Mono({
-  variable: "--font-mono",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-});
-
-const title = "Arjun Kumar | Backend Developer | Node.js, Express.js & PHP/Laravel";
+const title = "Arjun Kumar | Full Stack Developer | PHP/Laravel • Node.js • React.js • Shopify";
 const description =
-  "Backend Developer with 9+ years of experience building scalable web applications, RESTful APIs, real-time systems, eCommerce platforms, and third-party integrations.";
+  "Full Stack Developer with 9+ years of web development experience specializing in PHP, Laravel, MySQL, REST APIs, and eCommerce integrations, with additional skills in Node.js, Express.js, and React.js.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(
@@ -35,12 +16,18 @@ export const metadata: Metadata = {
   description,
   keywords: [
     "Arjun Kumar",
+    "Full Stack Developer",
     "Backend Developer",
+    "PHP",
+    "Laravel",
     "Node.js",
     "Express.js",
-    "Laravel",
-    "PHP",
+    "React.js",
+    "Next.js",
+    "Shopify",
     "REST API",
+    "MySQL",
+    "PostgreSQL",
     "Portfolio",
   ],
   authors: [{ name: "Arjun Kumar" }],
@@ -83,10 +70,20 @@ export default function RootLayout({
     <html
       lang="en"
       data-theme="dark"
-      className={`${display.variable} ${body.variable} ${mono.variable} h-full antialiased`}
+      className="h-full antialiased"
       suppressHydrationWarning
     >
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="min-h-full bg-[var(--bg)] text-[var(--fg)]">

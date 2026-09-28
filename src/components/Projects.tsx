@@ -1,7 +1,10 @@
 import {
+  BellRing,
+  Car,
   Code2,
   ExternalLink,
   MessageSquareText,
+  PackageCheck,
   UtensilsCrossed,
 } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -9,6 +12,9 @@ import { projects } from "@/data/portfolio";
 import { cn } from "@/lib/utils";
 
 const icons = {
+  car: Car,
+  truck: PackageCheck,
+  bell: BellRing,
   message: MessageSquareText,
   utensils: UtensilsCrossed,
 };
@@ -92,11 +98,11 @@ export function ProjectCard({
 
 export function Projects() {
   return (
-    <section id="projects" className="section-pad py-20 md:py-28">
+    <section id="projects" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading
-          title="Projects"
-          description="Selected work that highlights real-time systems, API design, and full backend ownership."
+          title="Featured Projects"
+          description="Key production applications from my experience spanning enterprise vehicle marketplaces, Shopify eCommerce apps, real-time messaging, and high-volume integrations."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           {projects.map((project) => (

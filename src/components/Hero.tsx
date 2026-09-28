@@ -14,10 +14,10 @@ export function Hero() {
       <div className="pointer-events-none absolute -right-16 top-40 size-80 rounded-full bg-[rgba(56,189,248,0.12)] blur-3xl glow-orb" />
 
       <div className="section-pad relative">
-        <div className="container-page grid items-center gap-12 py-16 md:grid-cols-[1.1fr_0.9fr] md:gap-10 md:py-24 lg:py-28">
+        <div className="container-page grid items-center gap-10 py-10 md:grid-cols-[1.1fr_0.9fr] md:gap-10 md:py-14 lg:py-16">
           <div>
             <p className="fade-up mb-4 font-mono text-sm text-[var(--accent)]">
-              Backend Developer
+              Full Stack Developer • 9+ Years Experience
             </p>
             <h1 className="fade-up fade-up-delay-1 font-display text-4xl font-semibold tracking-tight text-[var(--fg)] sm:text-5xl lg:text-6xl">
               {site.name}
@@ -34,7 +34,7 @@ export function Hero() {
                 href="#projects"
                 className="inline-flex h-12 items-center justify-center rounded-lg accent-gradient px-5 text-sm font-medium text-slate-950 transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--bg)] md:text-base"
               >
-                View My Work
+                View Featured Projects
               </a>
               <ResumeDownloadButton variant="secondary" />
             </div>
@@ -62,6 +62,23 @@ export function Hero() {
                   {site.phone}
                 </a>
               </li>
+              <li>
+                <a
+                  href={site.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 transition hover:text-[var(--accent)]"
+                >
+                  <svg
+                    className="size-4 fill-[var(--accent)]"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28" />
+                  </svg>
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -72,7 +89,7 @@ export function Hero() {
                 <span className="size-2.5 rounded-full bg-[#ffbd2e]" />
                 <span className="size-2.5 rounded-full bg-[#27c93f]" />
                 <span className="ml-3 font-mono text-xs text-slate-400">
-                  api-server.ts
+                  fullstack-engineer.ts
                 </span>
               </div>
               <pre className="overflow-x-auto p-5 font-mono text-[12px] leading-6 text-slate-300 sm:text-[13px]">
@@ -84,33 +101,34 @@ export function Hero() {
                   <span className="text-amber-200">&quot;Arjun Kumar&quot;</span>,
                   {"\n"}
                   {"  "}role:{" "}
-                  <span className="text-amber-200">&quot;Backend Developer&quot;</span>,
+                  <span className="text-amber-200">&quot;Full Stack Developer&quot;</span>,
                   {"\n"}
                   {"  "}stack: [
+                  <span className="text-amber-200">&quot;PHP / Laravel&quot;</span>,{" "}
                   <span className="text-amber-200">&quot;Node.js&quot;</span>,{" "}
-                  <span className="text-amber-200">&quot;Express&quot;</span>,{" "}
-                  <span className="text-amber-200">&quot;Laravel&quot;</span>],
+                  <span className="text-amber-200">&quot;React.js&quot;</span>,{" "}
+                  <span className="text-amber-200">&quot;Shopify&quot;</span>],
                   {"\n"}
                   {"  "}focus: [
                   {"\n"}
                   {"    "}
-                  <span className="text-amber-200">&quot;REST APIs&quot;</span>,
+                  <span className="text-amber-200">&quot;REST APIs &amp; Webhooks&quot;</span>,
                   {"\n"}
                   {"    "}
-                  <span className="text-amber-200">&quot;Real-time systems&quot;</span>,
+                  <span className="text-amber-200">&quot;eCommerce &amp; Marketplaces&quot;</span>,
                   {"\n"}
                   {"    "}
-                  <span className="text-amber-200">&quot;Integrations&quot;</span>
+                  <span className="text-amber-200">&quot;Real-Time Systems&quot;</span>
                   {"\n"}
                   {"  "}],
                   {"\n"}
-                  {"  "}experience:{" "}
+                  {"  "}experienceYears:{" "}
                   <span className="text-fuchsia-300">9</span>,
                   {"\n"}
                   {"}"};{"\n\n"}
                   <span className="text-teal-300">await</span>{" "}
                   <span className="text-sky-300">engineer</span>.ship
-                  (<span className="text-amber-200">&quot;scalable backends&quot;</span>);
+                  (<span className="text-amber-200">&quot;production platforms&quot;</span>);
                   <span className="cursor-blink text-teal-300">▌</span>
                 </code>
               </pre>

@@ -3,7 +3,7 @@ import { experience } from "@/data/portfolio";
 
 export function ExperienceTimeline() {
   return (
-    <section id="experience" className="section-pad py-20 md:py-28">
+    <section id="experience" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading
           title="Experience"

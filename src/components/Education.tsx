@@ -4,7 +4,7 @@ import { education } from "@/data/portfolio";
 
 export function Education() {
   return (
-    <section id="education" className="section-pad py-20 md:py-28">
+    <section id="education" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading title="Education" />
         <div className="grid gap-5 md:grid-cols-2">

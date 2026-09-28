@@ -25,6 +25,14 @@ export function Footer() {
                 {link.label}
               </a>
             ))}
+            <a
+              href={site.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-[var(--accent)] transition hover:underline"
+            >
+              LinkedIn ↗
+            </a>
           </nav>
         </div>
         <div className="container-page mt-10 border-t border-[var(--border)] pt-6">

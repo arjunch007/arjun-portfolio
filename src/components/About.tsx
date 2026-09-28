@@ -4,7 +4,7 @@ import { about } from "@/data/portfolio";
 
 export function About() {
   return (
-    <section id="about" className="section-pad py-20 md:py-28">
+    <section id="about" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading title="About Me" />
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-14">

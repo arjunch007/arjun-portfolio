@@ -3,13 +3,13 @@ import { skillCategories } from "@/data/portfolio";
 
 export function Skills() {
   return (
-    <section id="skills" className="section-pad py-20 md:py-28">
+    <section id="skills" className="section-pad py-10 md:py-14">
       <div className="container-page">
         <SectionHeading
           title="Technical Skills"
-          description="A practical backend toolkit spanning Node.js services, PHP frameworks, databases, and production integrations."
+          description="Comprehensive technical toolkit spanning full-stack frameworks, cloud infrastructure, databases, and modern AI-accelerated tooling."
         />
-        <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {skillCategories.map((category) => (
             <article
               key={category.title}
