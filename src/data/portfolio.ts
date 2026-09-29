@@ -5,7 +5,7 @@ export const site = {
   phone: "+91-9041555676",
   email: "arjun01ar@gmail.com",
   linkedin: "https://in.linkedin.com/in/arjun-kumar-850361194",
-  portfolioUrl: "https://arjun-portfolio-2jziym6gj-arjunch007.vercel.app/",
+  portfolioUrl: "https://arjun-portfolio-dev.web.app/",
   resumePath: "/resume/Arjun_Kumar_Backend_Developer_Resume.pdf",
   resumeFilename: "Arjun_Kumar_Resume.pdf",
   intro:
